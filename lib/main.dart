@@ -5,6 +5,7 @@ import 'pages/home_page.dart';
 
 Future<void> main() async {
   await GetStorage.init();
+  await GetStorage.init('JornadaGetX');
   runApp(const MyApp());
 }
 
